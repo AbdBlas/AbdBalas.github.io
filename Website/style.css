@@ -1,0 +1,304 @@
+*{
+
+    list-style-type: none;
+
+}
+
+
+body{
+    font-family: "Mada", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    
+}
+
+
+
+.ul-menu {
+
+
+    background-color: #333;
+    color: #fff;
+    list-style-type: none;
+    overflow: hidden;
+    text-align: center;
+
+    
+
+}
+.li_menu{
+
+    float: right;
+
+
+
+}
+
+.a_menu{
+
+    text-decoration: none;
+
+    color: #ffffff;
+    
+    font-size: 20px;
+
+    display: block;
+
+    padding: 17px;
+
+}
+
+
+.li_menu a:hover {
+
+    background-color: black;
+
+
+
+}
+
+ a{
+
+    color: white;
+    text-decoration: none;
+
+
+}
+
+.pa{
+    font-size: 40px;
+     display: inline;
+
+}
+
+
+.column{
+
+
+    width: 50%;
+
+    float: left;
+
+    text-align: center ;
+}
+
+
+.prof{
+
+    width: 200px;
+
+    height: 200px;
+
+    border-radius: 200px;
+
+
+}
+
+.minpic{
+
+    width: 50px;
+
+    padding: 10px;
+
+    
+
+
+
+}
+
+
+.left{
+
+width: 20%;
+
+float: left;
+
+font-size: larger;
+
+}
+
+.right{
+
+    width: 80% ;
+
+    float: left;
+
+}
+
+.row{
+
+    padding: 15px;
+
+
+}
+
+.row:after{
+
+    display: table;
+
+    clear: both;
+
+    content: "";
+
+
+
+
+
+
+}
+
+.Main-par{
+
+
+    background-color: gray;
+
+    display: block;
+
+    height: 25px;
+
+    
+
+}
+
+.Main-par span{
+
+    background-color: teal;
+    height: 25px;
+    display: block;
+    color: white;
+}
+
+
+
+
+.javascript{
+
+    width: 90%;
+
+    animation: JS 2s;
+
+}
+
+.C{
+
+
+    width: 50%;
+
+    animation: C 2s;
+
+}
+
+
+.python{
+
+
+    width: 70%;
+
+    animation: PY 2s;
+}
+.Java{
+
+    width: 80%;
+
+    animation: J 2s;
+}
+
+.SQL{
+
+
+    width: 95%;
+
+    animation: SQl 2s;
+
+}
+
+
+
+@keyframes JS {
+
+    0%{
+
+        width: 0;
+
+    }
+    100%{
+
+        width: 90%;
+    }
+
+}
+@keyframes C {
+
+    0%{
+
+        width: 0;
+
+    }
+    100%{
+
+        width: 50%;
+    }
+
+}
+@keyframes J {
+
+    0%{
+
+        width: 0;
+
+    }
+    100%{
+
+        width: 80%;
+    }
+
+}
+@keyframes PY{
+
+    0%{
+
+        width: 0;
+
+    }
+    100%{
+
+        width: 70%;
+    }
+
+}
+@keyframes SQl {
+
+    0%{
+
+        width: 0;
+
+    }
+    100%{
+
+        width: 95%;
+    }
+
+}
+
+.footer{
+
+    width: 100%;
+    height: 40px;
+
+    background-color: #333;
+
+    color:  white;
+
+    text-align: center;
+
+}
+
+
+@media screen and (max-width:800px){
+    
+    .column{
+        width: 100%;
+    }
+
+    
+}
